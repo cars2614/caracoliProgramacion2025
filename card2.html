@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Bootstrap 5 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Ingeniero de Sistemas</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-soft {
+            background: linear-gradient(135deg, #e8f0fe, #f5f7fa);
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card-soft:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-calm {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+        }
+
+        .btn-calm:hover {
+            background-color: #4178c0;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: -150px;
+        }
+    </style>
+</head>
+
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card card-soft text-center p-4" style="width: 22rem;">
+        <div class="d-flex justify-content-center">
+            <img src="IMG/linkedin.png" alt="Foto perfil" class="profile-img">
+        </div>
+        <div class="card-body mt-3">
+            <h5 class="card-title">Ing. Carlos Ramirez</h5>
+            <p class="card-text text-muted">Ingeniero de Sistemas con pasión por la innovación, la arquitectura de
+                sistemas y el desarrollo backend con Python y Flask.</p>
+            <a href="#" class="btn btn-calm">Ver portafolio</a>
+        </div>
+    </div>
+
+    <!-- JS Bootstrap -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>

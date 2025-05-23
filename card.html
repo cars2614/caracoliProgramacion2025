@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Requisitos Bootstrap 5 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-warm {
+            background: linear-gradient(145deg, #f8d49d, #f3a683);
+            color: #5a2e0f;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .card-warm:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-warm {
+            background-color: #e17055;
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-warm:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card card-warm p-4" style="width: 22rem;">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" class="card-img-top rounded"
+            alt="Imagen cálida">
+        <div class="card-body">
+            <h5 class="card-title">Energía Positiva</h5>
+            <p class="card-text">Siente el calor de la inspiración y deja que tu creatividad fluya con estos colores
+                cálidos.</p>
+            <a href="#" class="btn btn-warm">Descubrir más</a>
+        </div>
+    </div>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
